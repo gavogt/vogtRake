@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>VogtRake</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<div class="container">
-	<h1>Gabriel Vogt's Ruby project</h1>
-	<ul class="nav nav-tabs">
-		<li>School Work</li>
-		<li><%= link_to "school", article_path(@article) %></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		
-	</ul>
-
 
 <%= yield %>
 
